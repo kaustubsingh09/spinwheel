@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+body {
+  font-family: "Raleway", sans-serif;
+  background: url("../src/Images/desktop.png");
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 900px) {
+  body {
+    background: url("../src/Images/tap.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (max-width: 576px) {
+  body {
+    background: url("../src/Images/mobile.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
